@@ -1,0 +1,41 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFF;
+    display: flex;
+
+
+
+    .LeftSide {
+        width: 50%;
+        height: 100vh;
+        background-color: #272727;
+        box-shadow: 16px 0px 19px -12px rgba(39, 39, 39, 1);
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .CVForm {
+            display: grid;
+            height: 100%;
+            width: 100%;
+            border: 1px solid black;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+
+            .cvform-section {
+                display: flex;
+                flex-direction: column;
+                padding: 25px;
+            }
+        }
+    }
+
+    .RightSide {
+        width: 50%;
+        height: 100vh;
+    }
+}
