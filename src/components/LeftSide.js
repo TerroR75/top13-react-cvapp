@@ -7,7 +7,7 @@ class LeftSide extends Component {
             <div className="LeftSide">
                 <h1>CV Maker</h1>
 
-                <CVForm />
+                <CVForm changeAppState={this.props.changeAppState} />
             </div>
         )
     }
