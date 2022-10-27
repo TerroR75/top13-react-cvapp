@@ -1,0 +1,9 @@
+{
+    "explorer.compactFolders": false,
+    "explorer.decorations.badges": true,
+    "explorer.decorations.colors": true,
+    "explorer.excludeGitIgnore": false,
+    "explorer.fileNesting.enabled": false,
+    "outline.icons": true,
+    "outline.problems.badges": true
+}
